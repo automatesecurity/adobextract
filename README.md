@@ -1,4 +1,6 @@
 adobextract
 ===========
 
-Script to extract interesting information from the Adobe leak
+Simple script to extract interesting information from the Adobe leak.
+
+
