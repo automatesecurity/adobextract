@@ -62,7 +62,7 @@ cat cred | grep @damballa.com- > adobe_damballa.txt && wc -l adobe_damballa.txt 
 echo -n "Damballa information dumped -- OK | Records:"; tail -1 adobe_damballa.txt
 cat cred | grep @fireeye.com- > adobe_fireeye.txt && wc -l adobe_fireeye.txt >> adobe_fireeye.txt
 echo -n "FireEye information dumped -- OK | Records:"; tail -1 adobe_fireeye.txt
-cat cred | grep @ivizsecurity- > adobe_iviz.txt && wc -l adobe_iviz.txt >> adobe_iviz.txt
+cat cred | grep @ivizsecurity.com- > adobe_iviz.txt && wc -l adobe_iviz.txt >> adobe_iviz.txt
 echo -n "iViZ information dumped -- OK | Records:"; tail -1 adobe_iviz.txt
 cat cred | grep @dell.com- > adobe_dell.txt && wc -l adobe_dell.txt >> adobe_dell.txt
 echo -n "Dell information dumped -- OK | Records:"; tail -1 adobe_dell.txt
