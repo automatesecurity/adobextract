@@ -82,4 +82,4 @@ echo ""
 echo -e "\e[1;34mInteresting information dump completed\e[0m"
 echo -e "\e[1;34mNow compiling email addresses from all dumped files...\e[0m"
 cat adobe_* | cut -d\- -f 5 | sort -u > adobe_all_emails.txt && wc -l adobe_all_emails.txt >> adobe_all_emails.txt
-echo "All emails compiled -- OK | Records:"; tail -1 adobe_all_emails.txt
+echo -n "All emails compiled -- OK | Records:"; tail -1 adobe_all_emails.txt
