@@ -30,8 +30,8 @@ cat cred | grep @usmc.mil- > adobe_usmc.txt && wc -l adobe_usmc.txt >> adobe_usm
 echo -n "USMC information dumped -- OK | Records:"; tail -1 adobe_usmc.txt
 cat cred | grep @dia.mil- > adobe_dia.txt && wc -l adobe_dia.txt >> adobe_dia.txt
 echo -n "Defense Intelligence Agency information dumped -- OK | Records:"; tail -1 adobe_dia.txt
-cat cred | grep @pentagon.mil- > adobe_pentagon.txt && wc -l adobe_pentagon.txt >> adobe_pentagon.txt
-echo -n "Pentagon information dumped -- OK | Records:"; tail -1 adobe_pentagon.txt
+cat cred | grep @mail.mil- > adobe_defense.txt && wc -l adobe_defense.txt >> adobe_defense.txt
+echo -n "Defense information dumped -- OK | Records:"; tail -1 adobe_defense.txt
 cat cred | grep @whitehouse.gov- > adobe_wh.txt && wc -l adobe_wh.txt >> adobe_wh.txt
 echo -n "Whitehouse information dumped -- OK | RecordS:"; tail -1 adobe_wh.txt
 cat cred | grep @nsa.gov- > adobe_nsa.txt && wc -l adobe_nsa.txt >> adobe_nsa.txt
