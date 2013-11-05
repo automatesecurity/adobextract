@@ -55,7 +55,6 @@ echo -n "FBI information dumped -- OK | Records:"; tail -1 adobe_fbi.txt
 cat cred | grep @doj.gov- > adobe_doj.txt && wc -l adobe_doj.txt >> adobe_doj.txt
 echo -n "Department of Justice information dumped -- OK | Records:"; tail -1 adobe_doj.txt
 echo ""
-echo ""
 echo "Now dumping interesting corporate accounts..."
 cat cred | grep @rsa.com- > adobe_rsa.txt && wc -l adobe_rsa.txt >> adobe_rsa.txt
 echo -n "RSA information dumped -- OK | Records:"; tail -1 adobe_rsa.txt
@@ -74,13 +73,11 @@ echo -n "Apple information dumped -- OK | Records:"; tail -1 adobe_apple.txt
 cat cred | grep @alliedbarton.com- > adobe_ab.txt && wc -l adobe_ab.txt >> adobe_ab.txt
 echo -n "AlliedBarton information dumped -- OK | Records:"; tail -1 adobe_ab.txt
 echo ""
-echo ""
 echo "Now dumping interesting financial company accounts..."
 cat cred | grep @bankofamerica.com- > adobe_boa.txt && wc -l adobe_boa.txt >> adobe_boa.txt
 echo -n "Bank of America information dumped -- OK | Records:"; tail -1 adobe_boa.txt
 cat cred | grep @wellsfargo.com- > adobe_wf.txt && wc -l adobe_wf.txt >> adobe_wf.txt
 echo -n "Wells Fargo information dumped -- OK | Records:"; tail -1 adobe_wf.txt
-echo ""
 echo ""
 echo -e "\e[1;34mInteresting information dump completed\e[0m"
 echo -e "\e[1;34mNow compiling email addresses from all dumped files...\e[0m"
