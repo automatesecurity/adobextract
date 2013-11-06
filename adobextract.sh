@@ -47,7 +47,7 @@ echo ""
 echo "Dumping interesting information from domains.txt..."
 while read domains;
 do cat cred | grep @$domains- > $domains && wc -l $domains >> $domains
-echo -n $domains "information dumped --OK | Records:"; tail -1 $domains;
+echo -n $domains "information dumped -- OK | Records:"; tail -1 $domains;
 cat $domains | cut -d\- -f 5 >> emails.txt;
 cat emails.txt | sort -u > emails_sorted.txt;
 wc -l emails_sorted.txt >> emails_sorted.txt;
