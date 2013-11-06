@@ -1,9 +1,7 @@
-adobextract
-===========
-Daniel Wood aka securityCRUSH
-
+AdobeExtract v0.1
+=================
+By Daniel Wood (securityCRUSH)
 MIT License
-v0.1
 
 A quick and simple script to extract interesting information from the Adobe leak.  It needs to be rewritten to include a loop procedure that reads email domains from a text file to reduce processing time and script bloat.
 
