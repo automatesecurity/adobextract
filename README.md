@@ -1,5 +1,5 @@
-AdobExtract v0.1
-=================
+adobextract v0.1
+================
 By Daniel Wood (securityCRUSH)
 
 MIT License
@@ -12,6 +12,9 @@ cat cred | grep @YOUREMAIL- > adobe_youremail.txt && wc -l adobe_youremail.txt >
 echo -n "YOUREMAIL information dumped -- OK | Records:"; tail -1 adobe_youremail.txt
 
 The script currently contains several entries for an example of pulling email addresses and writing them to their respective text files and then combining them into one larger file that contains only the email addresses.
+
+To run: ./adobextract.sh
+
 
 Please keep in mind this script is unsupported and contains no warranties.  Feel free to use it as you like and make modifications to suit your needs.  If you end up re-distributing it, please keep in mind this carries the MIT License.
 
