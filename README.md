@@ -3,8 +3,6 @@ adobextract v0.1
 By Daniel Wood (securityCRUSH)
 Contact: securitycrush@gmail.com
 
-MIT License
-
 A quick and simple script to extract interesting information from the Adobe leak.  It needs to be rewritten to include a loop procedure that reads email domains from a text file to reduce processing time and script bloat.
 
 To add a new search paramter, just add:
