@@ -1,6 +1,7 @@
 adobextract v0.1
 ================
 By Daniel Wood (securityCRUSH)
+Contact: securitycrush@gmail.com
 
 MIT License
 
